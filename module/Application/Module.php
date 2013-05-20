@@ -11,6 +11,7 @@ namespace Application;
 
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
+use Zend\Db\Adapter\Adapter as DbAdapter;
 
 class Module
 {
@@ -37,4 +38,5 @@ class Module
             ),
         );
     }
+    
 }

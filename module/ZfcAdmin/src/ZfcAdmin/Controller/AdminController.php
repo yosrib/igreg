@@ -78,6 +78,7 @@ use Zend\View\Model\ViewModel;
  */
 class AdminController extends AbstractActionController{
     
+    
     public function indexAction(){
         // TODO Auto-generated ProjectController::indexAction() default action
         return new ViewModel(
@@ -87,7 +88,8 @@ class AdminController extends AbstractActionController{
     
     public function projetsAction(){
     	
-    	return new ViewModel();
+    	return new ViewModel(array(
+        ));
     }
     
     public function projetsenattenteAction(){

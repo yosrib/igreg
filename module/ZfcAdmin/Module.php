@@ -131,4 +131,5 @@ class Module implements
         $layout     = $config['zfcadmin']['admin_layout_template'];
         $controller->layout($layout);
     }
+    
 }
