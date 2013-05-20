@@ -4,6 +4,7 @@
  * to the application root now.
  */
 /* test git */
+/* test git2 */
 //chdir(dirname(__DIR__));
 
 // Setup autoloading
