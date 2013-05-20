@@ -1,4 +1,5 @@
-<?php
+<?php 
+/* test git */
 /**
  * Zend Framework (http://framework.zend.com/)
  *
